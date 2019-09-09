@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meme Haven</title>
+        <link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="scripts.js"></script>
+		<style>
+			img {display: inline-block;}
+			area {display: hidden;}
+			area#Cinderella:hover {display: visible}
+		</style>
+    </head>
+    <body>
+    <header>
+        <div id="head">
+        <h1>Meme Haven</h1>
+            <h3>Where Memes Come To Die, And Are Reborn</h3>
+        </div>
+        <nav>
+            <a href="Main.html" class="nostyle">Home</a>
+            <a href="CodeMemes.html" class="nostyle">Code Memes</a>
+            <a href="childhoodRuiningMemes.html" class="nostyle" id="active">Dark Memes</a>
+            <a href="About.html" class="nostyle">About</a>
+        </nav>
+        <hr id="glide">
+    </header>
+	<h2>Childhood Ruining Memes</h2>
+	<!-- 
+	Cinderella walked on broken glass
+	Aurora let a whole lifetime pass
+	Belle fell in love with a heideous beast
+	Jasmine married a common thief
+	Ariel walked on land for loveSnow White barely escaped a knife
+	Because LOVE means facing your biggest fears
+	-->
+	<h3>Disney</h3>
+	<img src="Disney_Chibis.png" alt="disneyPrincesses" usemap="#disneyPrincesses">
+	<map name="disneyPrincesses" src="Disney_Chibis.png" id="chibis">
+		<area onmouseover="Cinderella()" shape="rect" coords="22,24,125,266" alt="Cinderella">
+		<area onmouseover="Aurora()" shape="rect" coords="140,19,260,270" alt="Aurora">
+		<area onmouseover="Belle()" shape="rect" coords="286,21,430,280" alt="Belle">
+		<area onmouseover="Jasmine()" shape="rect" coords="434,18,548,270" alt="Jasmine">
+		<area onmouseover="Ariel()" shape="rect" coords="551,20,670,265" alt="Ariel">
+		<area onmouseover="SnowWhite()" shape="rect" coords="680,6,796,261" alt="Snow White">
+	</map> 
+	<p>Dear Parents,</p>
+	<p id="quote"></p>
+	<p>You Can't Blame Us.</p>
+	<p>We Were Taught To Rebel.</p>
+	
+	<img onclick="myFunction()" src="https://i.kym-cdn.com/photos/images/newsfeed/000/229/161/fd5.jpg" alt="largeImage" id='changeImage'>
+	
+   
+
+        <footer>This is where I'd put my social media, if I used any</footer>
+    </body>
+    
+
+</html>
